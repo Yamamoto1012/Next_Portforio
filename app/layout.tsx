@@ -4,7 +4,7 @@ import "./globals.css";
 
 const zenmaru = Zen_Maru_Gothic({ 
   weight: ["300", "400", "500", "700", "900"],
-  subsets: ["latin"],
+  preload: false,
   display: "swap",
 })
 
